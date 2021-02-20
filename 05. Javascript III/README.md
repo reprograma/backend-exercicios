@@ -16,24 +16,24 @@
 
 1. crie uma função que receba um número qualquer devolva o seguinte padrão como resultado (inclusive com os espaços). Por exemplo, caso receba o número 6 como parâmetro:
 
-```
-*
-**
-***
-****
-*****
-******
-```
+    ```
+    *
+    **
+    ***
+    ****
+    *****
+    ******
+    ```
 
 1. Refaça o exercício acima, porém agora com o seguinte padrão:
 
-```
-     *
-    **
-   ***
-  ****
- *****
-```
+    ```
+         *
+        **
+       ***
+      ****
+     *****
+    ```
 
 1. Seu Miguel da vendinha da esquina, não sabe multiplicar. Faça para ele um programa que dado um número, print (console.log) a tabuada do mesmo de 1 a 10.
 
@@ -47,27 +47,27 @@
 
 1. Escreva um algoritmo que printe o seguinte padrão no console:
 
-```
-1
-22
-333
-4444
-55555
-```
+    ```
+    1
+    22
+    333
+    4444
+    55555
+    ```
 
 1. Crie um algoritmo que dados dois números calcule o MMC (Mínimo Múltiplo Comum)
 
 1. Escreva um loop em Javascript que printa o seguinte padrão no console:
 
-```
-1******
-12*****
-123****
-1234***
-12345**
-123456*
-1234567
-```
+    ```
+    1******
+    12*****
+    123****
+    1234***
+    12345**
+    123456*
+    1234567
+    ```
 
 ## Arrays
 
@@ -79,15 +79,15 @@
 
 1. Em uma competição de ginástica, cada atleta recebe votos de sete jurados. A melhor e a pior nota são eliminadas. A sua nota fica sendo a média dos votos restantes. Você deve fazer um programa que receba o nome do ginasta e as notas dos sete jurados (um array) alcançadas pelo atleta em sua apresentação e depois informe a sua média, conforme a descrição acima informada. As notas não são informados ordenadas. Um exemplo de saída do programa deve ser conforme o exemplo abaixo:
 
->Resultado final:
->
->Atleta: Aparecido Parente
->
->Melhor nota: 9.9
->
->Pior nota: 7.5
->
->Média: 9.04
+    >Resultado final:
+    >
+    >Atleta: Aparecido Parente
+    >
+    >Melhor nota: 9.9
+    >
+    >Pior nota: 7.5
+    >
+    >Média: 9.04
 
 1. Faça uma função que receba uma quantidade x e retorne um array com x números randomicos.
 
@@ -101,66 +101,66 @@
 
 1. Baseado no código do exercício anterior, 2screva uma função que recebe 2 parametros: array e número.   Você deverá usar um laço de repetição para remover do array a quantidade exata passada como parametro da função.
 
-Por fim, imprima no console o array modificado pela sua função
-Exemplo:
+    Por fim, imprima no console o array modificado pela sua função
+    Exemplo:
 
-```javascript
-let sorvetes = ["Chocolate", "Creme", "Iogurte"];
+    ```javascript
+    let sorvetes = ["Chocolate", "Creme", "Iogurte"];
 
-removeSabor(sorvetes, 2);
+    removeSabor(sorvetes, 2);
 
-console.log(sorvetes);
-// retorna ["Chocolate]
-```
+    console.log(sorvetes);
+    // retorna ["Chocolate]
+    ```
 
 1. Crie um array de preços com as seguintes informações:
 
-- 1.23,
-- 48.11,
-- 90.11,
-- 8.50,
-- 9.99,
-- 1.00,
-- 1.10,
-- 67.00
+    - 1.23,
+    - 48.11,
+    - 90.11,
+    - 8.50,
+    - 9.99,
+    - 1.00,
+    - 1.10,
+    - 67.00
 
-Altere o preço do 1°, 3°, 7° elemento.
+    Altere o preço do 1°, 3°, 7° elemento.
 
 1. Decidimos renovar o sabor de alguns sorvetes.
 
-```javascript
-let sorvetes = [
-  "Coco",
-  "Maracujá",
-  "Abacaxi",
-  "Baunilha",
-  "Tangerina",
-  "Doce de Leite",
-  "Iogurte de frutas vermelhas",
-  "Melancia",
-  "Chocolate",
-  "Chocolate Belga",
-  "Torta de limão",
-];
-```
+    ```javascript
+    let sorvetes = [
+      "Coco",
+      "Maracujá",
+      "Abacaxi",
+      "Baunilha",
+      "Tangerina",
+      "Doce de Leite",
+      "Iogurte de frutas vermelhas",
+      "Melancia",
+      "Chocolate",
+      "Chocolate Belga",
+      "Torta de limão",
+    ];
+    ```
 
-Precisamos que você retire do cardápio o sabor `Iogurte de frutas vermelhas` e acrescente os sabores `Paçoquita` e `Passas ao rum`.
+    Precisamos que você retire do cardápio o sabor `Iogurte de frutas vermelhas` e acrescente os sabores `Paçoquita` e `Passas ao rum`.
 
 1. Utilize o array do exercício anterior para fazer este exercício. Faremos um evento corporativo e por isso reduziremos nosso cardápio, levando apenas os 3 primeiros sabores da nossa lista. Remova todos os outros sabores.
 
 1. Considere o seguinte array:
 
-```javascript
-let sabores = ["Limão", "Milho", "Napolitano", "Maracujá"];
-```
+    ```javascript
+    let sabores = ["Limão", "Milho", "Napolitano", "Maracujá"];
+    ```
 
-Escreva uma funcão chamada `topissimos()` que recebe um array como parâmetro.
+    Escreva uma funcão chamada `topissimos()` que recebe um array como parâmetro.
 
-Retorne `true` ou `false` dependendo de o array ter pelo menos 5 sabores.
+    Retorne `true` ou `false` dependendo de o array ter pelo menos 5 sabores.
 
-> dica: Modifique o array para validar se sua função está retornando o valor correto.
+    > dica: Modifique o array para validar se sua função está retornando o valor correto.
 
-Imprima no console o resultado.
+    Imprima no console o resultado.
 
 1. Use estruturas de controle para inverter uma array de inteiros. A função deverá receber uma array de números e retornar uma array com a ordem dos elementos invertida. Não é válido utilizar `arr.reverse()`.
 
