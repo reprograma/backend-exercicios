@@ -1,9 +1,10 @@
-## Como resolver os exercícios ?
+# Nota às professoras
 
-[Texto aqui]
+Esse repositório é a maneira mais simples de juntar os exercícios que temos elaborado ao longo dos anos. Caso sinta falta de algo e deseje adicionar ou encontre espaço para correções ou melhorias, "forke" o repositório e faça um PR.
 
-**Observação:** Se você cansar, aprenda a descansar, não a desistir. 
+# Nota às alunas
 
+**Se você cansar, aprenda a descansar, não a desistir.**
 
 ## E se eu não estiver conseguindo fazer ou com dificuldades ?
 
