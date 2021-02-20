@@ -8,7 +8,14 @@
 
 1. Crie uma função que irá converter uma quantia de real para dolar utilizando a cotação do dia.
 
+1. Refatore o exercício de Báskara da seguinte maneira que o novo código possua 3 funções: 
+    - A primeira recebe 3 parâmetros e calcula apenas o resultado de "delta";
+    - A segunda recebe 3 parâmetros e calcula o resultado de x';
+    - A terceira recebe 3 parâmetros e calcula o resultado de x";
 
+1. Crie uma função que calcule quantos dias o usuário viveu, baseado na idade;
+
+1. Crie uma função que calcule quantos batidas por dia dá um coração, considerando que, ele bate a 70 bpm;
 
 ## Estrutura condicional
 
@@ -63,3 +70,31 @@
     - Se for menor que a nota de recuperação, printar "Reprovado"
 
 1. Receba a data de nascimento e infome qual signo do zodíaco (Procura aí quais datas que são! Show, show, show!). Confira se é uma data de nascimento válida.
+
+1. Faça uma função que dado um número, retorne a classificação do ângulo. (Ângulo agudo: ângulo com medida maior que 0° menor que 90°; Ângulo reto: ângulo com medida igual a 90°; Ângulo obtuso: ângulo com medida maior que 90° e menor que 180°; Ângulo raso: ângulo com medida igual a 0° ou 180°; Ângulo Côncavo: ângulo com medida entre 180° e 360°; Ângulo completo: ângulo com medida igual a 360°).
+
+1. Baseado na tabela abaixo, retorne a classificação de um produto.
+
+| Código | Classificação |
+| ------ | ------------- |
+| 1 | Alimento não-perecível |
+| 2,3 ou 4 | Alimento perecível |
+| 5 ou 6 | Vestuário |
+| 7 | Higiene Pessoal |
+| 8 até 15 | Limpeza e Utensílios Domésticos |
+| Qualquer outro código | Código inválido |
+
+1. Baseado na tabela abaixo, escreva um algoritmo que leia o código do item adquirido pelo consumidor e a quantidade, calculando e mostrando o valor a pagar. A mensagem de retorno deve conter o produto, a quantidade e o valor total a pagar.
+
+| Código | Produto | Preço Unitário (R$) |
+| ----- | ------ | ----- |
+| 100 | Cachorro quente | R$ 1,70 |
+| 101 | Bauru Simples | R$ 2,30 |
+| 102 | Bauru com ovo | R$ 2,60 |
+| 103 | Hamburguer | R$ 2,40 |
+| 104 | Cheeseburguer | R$ 2,50 |
+| 105 | Refrigerante | R$ 1,00 |
+
+1. Escreva um código que receba três ângulos e determine se eles formam um triângulo válido. Em um triângulo válido, a soma dos três ângulos é igual a 180º.
+
+1. Vamos reescrever a função de Báskara. Para isso temos que verificar atráves de delta se é possível calcular x' e x". Se delta for menor que zero, a equação não tem raízes. Se delta for igual a zero, a equação tem uma raiz. Se delta for maior que zero, a equação tem duas raízes.
