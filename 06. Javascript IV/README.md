@@ -92,43 +92,17 @@ const objArrays = {
 }
 ```
 
-1. (Alerta de questão grande) Declare uma constante `pessoa`, que receba suas informações pessoais. As propriedades e tipos de valores para cada propriedade desse objeto devem ser:
-```
-- `nome` - String
-- `sobrenome` - String
-- `idade` - Number
-- `altura` - Number
-- `peso` - Number
-- `andando` - Boolean - iniciado com "false"
-- `caminhouQuantosMetros` - Number - iniciado com zero
-```
-
-    1. Adicione uma função ao objeto `pessoa` chamada `fazerAniversario`. A função deve alterar o valor da propriedade `idade` dessa pessoa, somando `1` a cada vez que for chamado.
-
-    1. Adicione um método ao objeto `pessoa` chamado `andar`, que terá as seguintes características:
-        - Esse método deve receber por parâmetro um valor que representará a quantidade de metros caminhados;
-        - Ele deve alterar o valor da propriedade `caminhouQuantosMetros`, somando ao valor dessa propriedade a quantidade passada por parâmetro;
-        - Ele deverá modificar o valor da propriedade `andando` para o valor booleano que representa "verdadeiro";
-
-    1. Adicione um método ao objeto `pessoa` chamado `parar`, que irá modificar o valor da propriedade `andando` para o valor booleano que representa "falso".
-
-    1. Crie um método chamado `nomeCompleto`, que retorne a frase: "Olá! Meu nome é [NOME] [SOBRENOME]!"
-
-    1. Crie um método chamado `mostrarIdade`, que retorne a frase: "Olá, eu tenho [IDADE] anos!"
-
-    1. Crie um método chamado `mostrarPeso`, que retorne a frase: "Eu peso [PESO]Kg."
-
-    1. Crie um método chamado `mostrarAltura` que retorne a frase: "Minha altura é [ALTURA]m."
-
-    1. Faça a `pessoa` fazer 3 aniversários.
-
-    1. Quantos anos a `pessoa` tem agora? Mostre no console.
-
-    1. Faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x, com metragens diferentes passadas por parâmetro.
-
-    1. Mostre quantos metros a pessoa andou. Verifique se ele ainda está andando e se estiver, pare a pessoa!
-
-    1. Crie um método chamado `mostrarDistancia` que retorne a frase: "[NOME] caminhou [caminhouQuantosMetros]m"
-
-    1. Crie um método para o objeto `pessoa` chamado `apresentacao`. Esse método deve retornar a string: "Olá, eu sou [NOME COMPLETO], tenho [IDADE] anos, [ALTURA], meu peso é [PESO] e, só hoje, eu já caminhei [CAMINHOU QUANTOS METROS] metros!". Certifique de usar singular ou plural para anos e metros.
-
+1. (Alerta de questão grande) Declare uma constante `pessoa`, que receba suas informações pessoais. As propriedades e tipos de valores para cada propriedade desse objeto devem ser: `nome - String; sobrenome - String; idade - Number; altura - Number; peso - Number; andando - Boolean; caminhouQuantosMetros - Number`
+    - Adicione uma função ao objeto `pessoa` chamada `fazerAniversario`. A função deve alterar o valor da propriedade `idade` dessa pessoa, somando `1` a cada vez que for chamado.
+    - Adicione um método ao objeto `pessoa` chamado `andar`, que terá as seguintes características: (1) Esse método deve receber por parâmetro um valor que representará a quantidade de metros caminhados; (2) Ele deve alterar o valor da propriedade `caminhouQuantosMetros`, somando ao valor dessa propriedade a quantidade passada por parâmetro; (3) Ele deverá modificar o valor da propriedade `andando` para o valor booleano que representa "verdadeiro";
+    - Adicione um método ao objeto `pessoa` chamado `parar`, que irá modificar o valor da propriedade `andando` para o valor booleano que representa "falso".
+    - Crie um método chamado `nomeCompleto`, que retorne a frase: "Olá! Meu nome é [NOME] [SOBRENOME]!"
+    - Crie um método chamado `mostrarIdade`, que retorne a frase: "Olá, eu tenho [IDADE] anos!"
+    - Crie um método chamado `mostrarPeso`, que retorne a frase: "Eu peso [PESO]Kg."
+    - Crie um método chamado `mostrarAltura` que retorne a frase: "Minha altura é [ALTURA]m."
+    - Faça a `pessoa` fazer 3 aniversários.
+    - Quantos anos a `pessoa` tem agora? Mostre no console.
+    - Faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x, com metragens diferentes passadas por parâmetro.
+    - Mostre quantos metros a pessoa andou. Verifique se ele ainda está andando e se estiver, pare a pessoa!
+    - Crie um método chamado `mostrarDistancia` que retorne a frase: "[NOME] caminhou [caminhouQuantosMetros]m"
+    - Crie um método para o objeto `pessoa` chamado `apresentacao`. Esse método deve retornar a string: "Olá, eu sou [NOME COMPLETO], tenho [IDADE] anos, [ALTURA], meu peso é [PESO] e, só hoje, eu já caminhei [CAMINHOU QUANTOS METROS] metros!". Certifique de usar singular ou plural para anos e metros.
