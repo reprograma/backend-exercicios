@@ -1,3 +1,5 @@
+## Variáveis
+
 1. Execute as seguintes tarefas:
     1. Declare uma variável chamada meuNome.
     
@@ -19,7 +21,11 @@
         console.log(myName);    
         console.log(\`In 20 years, I will be ${myAge + 20}`);
 
+## Tipo de Dados
+
 1. Inicialize uma variável com qualquer valor, e mostre o valor e o tipo do dado.
+
+## Operadores
 
 1. Faça um programa que peça dois números e imprima no console a soma desses dois números.
 
